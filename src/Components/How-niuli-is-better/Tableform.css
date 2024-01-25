@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.How-niuli-is-better-heading h2{
+  text-align: center;
+  margin-top:50px;
+}
+.scetion-title-bar{
+  font-weight: 400;
+    font-size:30px;
+    color: #1f2128;
+    letter-spacing: 2.13px;
+    line-height: 38px;
+    margin-bottom: 40px;
+}
+.table-section{
+  border-collapse: collapse;
+    box-shadow: 0 1px 14px 0 rgba(0,0,0,.1);
+    background-color: transparent;
+    margin:5% auto;
+}
+.others_heading{
+  padding: 35px 20px 0 25px;
+  font-size: 24px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+th{
+  text-align: inherit;
+}
+.Niulli_heading{
+  padding: 35px 20px 0 25px;
+  font-size: 24px;
+  background: #ffcf6c;
+}
+.brand_color_price{
+  font-size: 18px;
+    font-weight: 600;
+    background: #f4f4f4;
+    padding: 20px 30px 10px 40px;
+    color: #be325e!important;
+}
+.other_text_wraplist{
+  color: #212121;
+  font-size: 18px;
+  padding: 25px 20px 10px 25px;
+  width: 495px;
+}
+.other_text_wraplist_last_row{
+  color: #212121;
+  font-size: 18px;
+  padding: 25px 20px 40px 25px;
+  width: 495px;
+  background: #ffcf6c;
+}
+
+@media(max-width : 500px){
+  .main_table_div{
+    display: none;
+  }
+
+}

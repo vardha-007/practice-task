@@ -1,0 +1,78 @@
+.scan-based-image-continer > img {
+  width: 100%;
+  height: 480px;
+}
+.ready-to-start-conatiner {
+  padding: 5% 5% 5% 10%;
+ 
+}
+.ready-to-scan-container {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 15px;
+  width:50%;
+}
+
+.scan-container {
+  display: flex;
+  gap: 20px;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+.google-play-container {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+
+.ready-to-scan-container > h1 {
+  color: #1f2127;
+  width: 100%;
+  letter-spacing: 1.8px;
+  font-size: 30px;
+  font-family: RBBold !important;
+}
+.ready-to-scan-container > p {
+  color: #606060;
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  letter-spacing: 1.6px;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .scan-based-image-continer {
+    width: 100%;
+  }
+  .scan-based-image-continer > img {
+    height: 310px;
+  }
+
+  .ready-to-scan-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    gap: 10px;
+    width: 100%;
+  }
+  .Book_an_appointment {
+    padding: 20px;
+  }
+  .ready-to-scan-container {
+    display: flex;
+    flex-direction: column;
+    padding: 12% 4%;
+    gap: 10px;
+    width: 100%;
+  }
+  .ready-to-scan-container > p {
+    font-size: 14px;
+  }
+}

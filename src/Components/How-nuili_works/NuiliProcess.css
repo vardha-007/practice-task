@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading_how_niuli_works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 30px;
+  color: #1f2128;
+  letter-spacing: 2.13px;
+  line-height: 38px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 50px;
+}
+.main_Niulli_process {
+  margin: 50px auto;
+}
+
+.niuli_works_process {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  padding-left: 15%;
+}
+
+.box {
+  width: 150px;
+  height: 165px;
+  float: left;
+}
+.up_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+.up_content > img {
+  width: 63px;
+  height: 63px;
+}
+.en_description > p {
+  float: left;
+  color: #212121;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.one {
+  font-size: 48px;
+  font-weight: 600;
+  color: #be325e;
+}
+
+.two {
+  font-size: 48px;
+  font-weight: 600;
+  color: #202945;
+}
+.three {
+  font-size: 48px;
+  font-weight: 600;
+  color: #e5ab49;
+}
+.four {
+  font-size: 48px;
+  font-weight: 600;
+  color: #009ba2;
+}
+.five {
+  font-size: 48px;
+  font-weight: 600;
+  color: #e5ab49;
+}
+.six {
+  font-size: 48px;
+  font-weight: 600;
+  color: #202945;
+}
+
+.iframe-video-niulli {
+  width: 100%;
+  height: 335px;
+  border-radius: 15px;
+}
+
+@media (max-width: 500px) {
+  .niuli_works_process {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    /* overflow-x: hidden; */
+  }
+
+  .iframe-video-niulli {
+    padding: 0 10px;
+    width: 100% !important;
+    height: 335px;
+    border-radius: 15px;
+    flex-shrink: 0;
+  }
+
+  .box {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+  }
+}

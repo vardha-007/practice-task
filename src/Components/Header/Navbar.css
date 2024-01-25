@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  color: white;
+}
+.nuili-logo {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.Kitchens,
+.Your-Kitchen-Lasts,
+.Get-Your-Kitchen-Lasts {
+  text-decoration: none;
+  padding: 25px 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #212121;
+  font-size: 15px;
+  line-height: 40px;
+  letter-spacing: 1.58px;
+  font-family: RBRegular !important;
+}
+.login-btn button {
+  font-size: 17px;
+  font-weight: 400;
+  border: 1px solid #1f2128;
+  outline: none;
+  background: none;
+  color: #212121;
+  padding: 2px 25px 3px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+.mobile-menu-icon {
+  display: none;
+}
+@media (max-width: 500px) {
+  .nuili-logo img {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    z-index: 9999;
+    color: white;
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #eee9e9;
+    color: #212121;
+    width: 100%;
+    height:40vh;
+    transform: all 10 ease-out;
+    z-index: 9999;
+    top: 100%;
+  }
+
+  .Kitchens,
+  .Your-Kitchen-Lasts,
+  .Get-Your-Kitchen-Lasts {
+    color: #212121;
+    text-align: center;
+    padding: 8px 0;
+    width: 100%;
+    transform :transition all 0.10s ease;
+  }
+  .login-btn button {
+    position: absolute;
+    margin-top:180px;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    color: aliceblue;
+    margin-left: 50px;
+    padding:5px 0;
+    background: #212121;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    border: none;
+    outline: none;
+    z-index: 9999;
+  }
+  ul {
+    padding-left: 0 !important;
+  }
+}
