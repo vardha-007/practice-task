@@ -7,7 +7,7 @@
  
 }
 .ready-to-scan-container {
-  padding-left: 50px;
+  /* padding-left: 50px; */
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -58,21 +58,25 @@
   .ready-to-scan-container {
     display: flex;
     flex-direction: column;
-    padding-left: 3%;
+    /* padding-left: 3%; */
     gap: 10px;
     width: 100%;
   }
   .Book_an_appointment {
-    padding: 20px;
+    padding: 10% 20px;
   }
   .ready-to-scan-container {
     display: flex;
     flex-direction: column;
-    padding: 12% 4%;
+    padding: 8% 4% 0 4%;
     gap: 10px;
     width: 100%;
   }
-  .ready-to-scan-container > p {
+  /* .ready-to-scan-container > p {
     font-size: 14px;
+  } */
+  .ready-to-start-conatiner {
+    padding:0;
+   
   }
 }

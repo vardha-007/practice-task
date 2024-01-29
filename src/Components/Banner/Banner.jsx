@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Banner/Banner.css";
+import Book_now from "../Assets/bookNowEn.png";
 
-
-const Banner = ({homepagedata}) => {
- 
-
+const Banner = ({ homepagedata }) => {
   return (
     <div>
       <div
@@ -27,6 +25,18 @@ const Banner = ({homepagedata}) => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="Book_now_content">
+       <div>
+       <img
+          src="https://niuli-images.gumlet.io/Catalogue_english.png?w=1700&dpr=2.0"
+          alt="check_the_catalogue"
+        />
+       </div>
+
+      <div>
+      <img src={Book_now} alt="Book_now" />
+      </div>
       </div>
     </div>
   );

@@ -1,4 +1,29 @@
-.item{
-    height:50%;
-    width:inherit;
+.item {
+  height: 100vh;
+  width: inherit;
+}
+
+.Book_now_content {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+@media (max-width: 500px) {
+  .item {
+    height: 50vh;
+    width: inherit;
+  }
+  .Book_now_content {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+  }
+  .Book_now_content > img{
+    width:180px;
+    height: 90px;
+  }
 }

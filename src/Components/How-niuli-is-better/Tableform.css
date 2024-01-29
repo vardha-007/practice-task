@@ -56,9 +56,8 @@ th{
   background: #ffcf6c;
 }
 
-@media(max-width : 500px){
-  .main_table_div{
+@media (max-width: 768px) {
+  .main_table_div {
     display: none;
   }
-
 }

@@ -88,21 +88,25 @@
 }
 
 @media (max-width: 500px) {
+  .main_Niulli_process {
+    overflow: hidden;
+  }
   .niuli_works_process {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: space-evenly;
     padding: 0 20px;
-    /* overflow-x: hidden; */
+    
   }
 
   .iframe-video-niulli {
     padding: 0 10px;
     width: 100% !important;
-    height: 335px;
+    height:235px;
     border-radius: 15px;
     flex-shrink: 0;
+    margin-top:60px;
   }
 
   .box {
